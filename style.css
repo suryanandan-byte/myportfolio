@@ -1,0 +1,104 @@
+#my1{
+    background-image: url("images/kousik.png");
+    background-size:cover;
+    background-position:center;
+    height: 700px;
+    width: 100%;
+}
+#my2{
+    background: rgb(103, 102, 104);
+    background-size:cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+}
+#m1-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 75px;
+    display: block;
+    margin: auto;
+    margin-bottom: 0%;
+}
+#m1-img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.home h1{
+    position: relative;
+    top: 30%;
+    height: 300px;
+    color: white;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.home h2{
+    position: relative;
+    height: 300px;
+    color: white;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.about > h1, .about > p{
+    color: rgb(46, 0, 0);
+    position: static;
+    height: 100px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 0px;
+    border: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.about > h2{
+    color: rgb(46, 0, 0);
+    position: static;
+    height: -100px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 0px;
+    border: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30%;
+    border: 1px lightgrey solid;
+    margin: 2%;
+}
+.box{
+    width: 30%;
+    height: 70%;
+    border: 1px lightgrey solid;
+    border-radius: 10px;
+    background-color:lightblue;
+    text-align: center;
+}
+.box:hover{
+    transform: scale(1.09);
+    transition: transform 0.3s ease;
+}
+footer{
+    background-color: rgb(103, 102, 104);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 10px;
+}
+footer button{
+    background-color: rgb(46, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
